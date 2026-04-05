@@ -25,8 +25,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-lg'
-          : 'bg-transparent'
+        ? 'bg-white/95 backdrop-blur-md shadow-lg'
+        : 'bg-transparent'
         }`}
     >
       {/* Top Bar */}
@@ -41,12 +41,12 @@ const Navbar = () => {
             </span>
             <span className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
-              Monday - Sunday: 8:00 AM - 8:00 PM
+              Monday - Sunday : 8:00 AM - 8:00 PM
             </span>
           </div>
           <div className="hidden md:block">
             <span className="text-yellow-300 font-medium">
-              Kamargaon, Washim District - 444110, Maharashtra
+              Kamargaon, Washim District, Maharashtra - 444110
             </span>
           </div>
         </div>
